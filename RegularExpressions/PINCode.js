@@ -3,7 +3,7 @@ let validateWithoutSpace = () =>
     console.log("validateWithoutSpace");
     try
     {
-        let pincode = 523441//prompt("Enter pincode:");
+        let pincode = prompt("Enter pincode:");
         //regex pattern for pincode not allowing spaces
         let pincodePattern = new RegExp('^[1-9]{1}[0-9]{5}$');
         //test pincode with pattern
